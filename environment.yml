@@ -1,0 +1,17 @@
+name: bcc-atac
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas>=2.2,<3
+  - scanpy>=1.10
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - snapatac2
+      - pychromvar
+      - harmonypy
